@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/root",
+  "display": {
+    "icon": {
+      "item": "verycoolmod:titanium_ingot"
+    },
+    "title": {
+      "translate": "advancements.modlife.mine_titanium.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.mine_titanium.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "titanium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:titanium_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "titanium_ingot"
+    ]
+  ]
+}

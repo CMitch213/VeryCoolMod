@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "verycoolmod:titanium_ingot"
+    }
+  ],
+  "result": {
+    "item": "verycoolmod:titanium_ore",
+    "count": 9
+  }
+}

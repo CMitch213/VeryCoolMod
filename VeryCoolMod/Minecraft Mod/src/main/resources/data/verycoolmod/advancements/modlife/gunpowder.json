@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/mine_sulfur",
+  "display": {
+    "icon": {
+      "item": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "advancements.modlife.gunpowder.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.gunpowder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gunpowder"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gunpowder"
+    ]
+  ]
+}

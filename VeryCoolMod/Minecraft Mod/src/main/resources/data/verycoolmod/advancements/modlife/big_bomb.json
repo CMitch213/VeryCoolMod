@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/bomb",
+  "display": {
+    "icon": {
+      "item": "verycoolmod:big_bomb"
+    },
+    "title": {
+      "translate": "advancements.modlife.big_bomb.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.big_bomb.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "big_bomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:big_bomb"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "big_bomb"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:netherite_axe"
+    }
+  ],
+  "result": {
+    "item": "verycoolmod:bezerker"
+  }
+}

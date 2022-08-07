@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    " # ",
+    " # "
+  ],
+  "pattern": [
+    " XX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "verycoolmod:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:aluminum_hoe"
+  }
+}

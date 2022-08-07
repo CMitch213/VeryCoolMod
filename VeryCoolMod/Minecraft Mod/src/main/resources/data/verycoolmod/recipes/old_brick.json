@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "XX ",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "verycoolmod:mixed_brick"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:old_brick",
+    "count": 4
+  }
+}

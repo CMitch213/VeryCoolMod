@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "verycoolmod:blocks/moss_stone"
+  }
+}

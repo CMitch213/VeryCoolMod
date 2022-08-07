@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/large_bomb",
+  "display": {
+    "icon": {
+      "item": "verycoolmod:mortar"
+    },
+    "title": {
+      "translate": "advancements.modlife.mortar.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.mortar.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mortar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:mortar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mortar"
+    ]
+  ]
+}

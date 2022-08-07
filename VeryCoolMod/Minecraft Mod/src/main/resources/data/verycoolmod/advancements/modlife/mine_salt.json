@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/root",
+  "display": {
+    "icon": {
+      "item": "verycoolmod:salt"
+    },
+    "title": {
+      "translate": "advancements.modlife.mine_salt.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.mine_salt.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "salt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:salt"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "salt"
+    ]
+  ]
+}

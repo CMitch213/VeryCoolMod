@@ -1,0 +1,69 @@
+{
+  "parent": "minecraft:story/mine_titanium",
+  "display": {
+    "icon": {
+      "item": "minecraft:titanium_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.story.titanium_armour.title"
+    },
+    "description": {
+      "translate": "advancements.story.titanium_armour.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "titanium_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:titanium_helmet"
+          }
+        ]
+      }
+    },
+    "titanium_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:titanium_chestplate"
+          }
+        ]
+      }
+    },
+    "titanium_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:titanium_leggings"
+          }
+        ]
+      }
+    },
+    "titanium_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:titanium_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "titanium_helmet",
+      "titanium_chestplate",
+      "titanium_leggings",
+      "titanium_boots"
+    ]
+  ]
+}

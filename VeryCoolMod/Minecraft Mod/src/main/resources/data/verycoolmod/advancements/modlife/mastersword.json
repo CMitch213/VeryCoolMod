@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/mine_calcite",
+  "display": {
+    "icon": {
+      "item": "minecraft:mastersword"
+    },
+    "title": {
+      "translate": "advancements.modlife.mastersword.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.mastersword.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mastersword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:mastersword"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mastersword"
+    ]
+  ]
+}

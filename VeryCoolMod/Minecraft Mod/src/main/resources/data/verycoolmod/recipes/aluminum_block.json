@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "verycoolmod:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:aluminum_block"
+  }
+}

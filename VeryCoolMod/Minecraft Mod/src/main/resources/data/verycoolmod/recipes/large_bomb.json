@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:tnt"
+    },
+    "#": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:large_bomb"
+  }
+}

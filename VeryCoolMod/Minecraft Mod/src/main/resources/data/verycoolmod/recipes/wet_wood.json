@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "YXY",
+    "YYY"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:water_bucket"
+    },
+    "Y": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:wet_wood",
+    "count": 9
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " XX",
+    " #X",
+    " # "
+  ],
+  "pattern": [
+    "XX ",
+    "X# ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "verycoolmod:nickel"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:nickel_axe"
+  }
+}

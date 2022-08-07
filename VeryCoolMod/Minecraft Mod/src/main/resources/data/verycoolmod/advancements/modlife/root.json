@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "verycoolmod:titanium_ore_block"
+    },
+    "title": {
+      "translate": "advancements.modlife.root.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

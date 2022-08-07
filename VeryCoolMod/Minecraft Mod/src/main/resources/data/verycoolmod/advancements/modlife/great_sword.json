@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/mine_titanium",
+  "display": {
+    "icon": {
+      "item": "minecraft:great_sword"
+    },
+    "title": {
+      "translate": "advancements.modlife.great_sword.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.great_sword.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "great_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:great_sword"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "great_sword"
+    ]
+  ]
+}

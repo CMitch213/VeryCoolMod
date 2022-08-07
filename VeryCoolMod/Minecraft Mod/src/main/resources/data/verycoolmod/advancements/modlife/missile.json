@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/mortar",
+  "display": {
+    "icon": {
+      "item": "verycoolmod:missile"
+    },
+    "title": {
+      "translate": "advancements.modlife.missile.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.missile.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "missile": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:missile"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "missile"
+    ]
+  ]
+}

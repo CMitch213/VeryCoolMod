@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " X ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "verycoolmod:calcite_ingot"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:mastersword"
+  }
+}

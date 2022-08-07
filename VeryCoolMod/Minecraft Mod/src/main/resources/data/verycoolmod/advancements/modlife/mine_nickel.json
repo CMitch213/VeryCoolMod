@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/root",
+  "display": {
+    "icon": {
+      "item": "verycoolmod:nickel"
+    },
+    "title": {
+      "translate": "advancements.modlife.mine_nickel.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.mine_nickel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nickel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:nickel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nickel"
+    ]
+  ]
+}

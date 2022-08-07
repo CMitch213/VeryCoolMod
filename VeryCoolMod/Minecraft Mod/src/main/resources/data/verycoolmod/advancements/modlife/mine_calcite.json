@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/root",
+  "display": {
+    "icon": {
+      "item": "verycoolmod:calcite_ingot"
+    },
+    "title": {
+      "translate": "advancements.modlife.mine_calcite.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.mine_calcite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "calcite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:calcite_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "calcite_ingot"
+    ]
+  ]
+}

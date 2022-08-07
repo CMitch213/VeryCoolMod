@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "verycoolmod:titanium_ores"
+  },
+  "result": "verycoolmod:titanium_ingot",
+  "experience": 5.0,
+  "cookingtime": 300
+}

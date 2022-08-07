@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    " X ",
+    " # "
+  ],
+  "pattern": [
+    "  X",
+    " X ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "verycoolmod:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:parrydagger"
+  }
+}

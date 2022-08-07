@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "verycoolmod:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "verycoolmod:ruby",
+    "count": 9
+  }
+}

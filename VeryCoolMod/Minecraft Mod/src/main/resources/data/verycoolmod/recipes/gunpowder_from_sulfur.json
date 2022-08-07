@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "verycoolmod:sulfurore"
+    }
+  },
+  "result": {
+    "item": "minecraft:gunpowder"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "XX ",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "verycoolmod:marble"
+    }
+  },
+  "result": {
+    "item": "verycoolmod:marble_brick",
+    "count": 4
+  }
+}

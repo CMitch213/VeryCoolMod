@@ -1,0 +1,35 @@
+{
+  "parent": "verycoolmod:modlife/root",
+  "display": {
+    "icon": {
+      "item": "verycoolmod:sulfurore"
+    },
+    "title": {
+      "translate": "advancements.modlife.mine_sulfur.title"
+    },
+    "description": {
+      "translate": "advancements.modlife.mine_sulfur.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sulfur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "verycoolmod:sulfurore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sulfur"
+    ]
+  ]
+}
